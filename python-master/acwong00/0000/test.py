@@ -10,7 +10,7 @@ d = ImageDraw.Draw(original)
 
 d.text((200, 0), "8", font=fnt, fill=(255,255,0,255))
 
-original.save("finnal1.jpg")
+original.save("finnal.jpg")
 
 img = Image.open("finnal.jpg")
 

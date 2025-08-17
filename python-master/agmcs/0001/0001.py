@@ -1,6 +1,6 @@
 import uuid
 
 uuids = []
-for i in range(200):
+for i in range(2):
 	uuids.append(uuid.uuid1())
-print uuids
+print(uuids)

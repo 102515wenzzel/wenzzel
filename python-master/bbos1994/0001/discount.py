@@ -1,8 +1,6 @@
 #! /usr/bin/python3
 # -*-coding:utf-8 -*-
 
-__author__ = 'TonyZhu'
-
 from random import randint
 
 str = 'abcdefghigklmnopqrstuvwxyz123456789'
@@ -11,7 +9,7 @@ def produce(count):
 	discountNumArray = []
 	for _count in range(count):
 		discountNum = []
-		for i in range(10):
+		for i in range(5):
 			_index = randint(0,34)
 			discountNum.append(str[_index])
 		discountNumArray.append(''.join(discountNum))

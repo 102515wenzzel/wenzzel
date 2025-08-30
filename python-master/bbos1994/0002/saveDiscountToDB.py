@@ -1,8 +1,6 @@
 #! /usr/bin/python3
 # -*- coding:utf-8 -*-
 
-__author__ = 'TonyZhu'
-
 import mysql.connector
 import discount 
 

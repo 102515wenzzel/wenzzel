@@ -12,8 +12,8 @@ def resize(path):
         x = h/1136.0
         h=1136
         w = int(w//x)
-    print w,h
-    im = im.resize((w,h),Image.ANTIALIAS)
+    #print w,h
+    im = im.resize((w,h),Image.Resampling.LANCZOS)
     im.show()
     im.save(path)
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# Created by xixijun
-# Date: 15-5-13
-# Blog: morningchen.com
 
 
 from PIL import Image
@@ -41,5 +38,5 @@ class AddNumToPic(object):
 if __name__ == '__main__':
     pic = AddNumToPic()
     pic.open('img.png')
-    pic.set_font('microsoft_yahei.TTF', 80)
-    pic.draw_text('4', 'red', pic.font)
+    pic.set_font('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 80)
+    pic.draw_text('4100', 'red', pic.font)
